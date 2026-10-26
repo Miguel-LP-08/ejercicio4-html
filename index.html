@@ -264,64 +264,50 @@
                 <form action="inscripcion.php" method="post">
                     <fieldset>
                         <legend>Datos personales</legend>
-                        <p>
-                            <label for="nombre">Nombre completo</label><br>
-                            <input type="text" id="nombre" name="nombre" placeholder="Ana García" required>
-                        </p>
-                        <p>
-                            <label for="correo">Correo electrónico</label><br>
-                            <input type="email" id="email" name="email" required>
-                        </p>
-                        <p>
-                            <label for="edad">Edad</label><br>
-                            <input type="number" id="edad" min="16" max="99">
-                        </p>
-                        <p>
-                            <label for="fecha">Fecha de tu primera salida</label><br>
-                            <input type="date" id="fecha" name="fecha">
-                        </p>
+                        <label for="nombre">Nombre completo</label><br>
+                        <input type="text" id="nombre" name="nombre" placeholder="Ana García" required>
+                        <br>
+                        <label for="correo">Correo electrónico</label><br>
+                        <input type="email" id="email" name="email" required>
+                        <br>
+                        <label for="edad">Edad</label><br>
+                        <input type="number" id="edad" min="16" max="99">
+                        <br>
+                        <label for="fecha">Fecha de tu primera salida</label><br>
+                        <input type="date" id="fecha" name="fecha">
                     </fieldset>
 
                     <fieldset>
                         <legend>Tu experiencia</legend>
                         <p>Nivel:</p>
-                        <p>
-                            <input type="radio" id="nivel-bajo" name="nivel" value="bajo">
-                            <label for="nivel-bajo">Principiante</label>
-                            <input type="radio" id="nivel-medio" name="nivel2" value="medio">
-                            <label for="nivel-medio">Intermedio</label>
-                            <input type="radio" id="nivel-alto" name="nivel3" value="alto">
-                            <label for="nivel-alto">Avanzado</label>
-                        </p>
-                        <p>
-                            <label for="ruta">Ruta preferida</label>
-                            <select id="ruta" name="ruta">
-                                <option value="pindo">Monte Pindo</option>
-                                <option value="ezaro">Fervenza do Ézaro</option>
-                                <option value="catasos">Fraga de Catasós</option>
-                            </select>
-                        </p>
+                        <input type="radio" id="nivel-bajo" name="nivel" value="bajo">
+                        <label for="nivel-bajo">Principiante</label>
+                        <input type="radio" id="nivel-medio" name="nivel2" value="medio">
+                        <label for="nivel-medio">Intermedio</label>
+                        <input type="radio" id="nivel-alto" name="nivel3" value="alto">
+                        <label for="nivel-alto">Avanzado</label>
+                        <label for="ruta">Ruta preferida</label>
+                        <select id="ruta" name="ruta">
+                            <option value="pindo">Monte Pindo</option>
+                            <option value="ezaro">Fervenza do Ézaro</option>
+                            <option value="catasos">Fraga de Catasós</option>
+                        </select>
                         <p>Necesito alquilar:</p>
-                        <p>
-                            <input type="checkbox" id="alq-bastones" name="alquiler" value="bastones">
-                            <label for="alq-bastones">Bastones</label>
-                            <input type="checkbox" id="alq-frontal" name="alquiler" value="frontal">
-                            <label for="alq-frontal">Linterna frontal</label>
-                        </p>
-                        <p>
-                            <label for="comentarios">Comentarios</label><br>
-                            <textarea name="comentarios" rows="4" cols="40"></textarea>
-                        </p>
+                        <input type="checkbox" id="alq-bastones" name="alquiler" value="bastones">
+                        <label for="alq-bastones">Bastones</label>
+                        <input type="checkbox" id="alq-frontal" name="alquiler" value="frontal">
+                        <label for="alq-frontal">Linterna frontal</label>
+                        <br>
+                        <label for="comentarios">Comentarios</label><br>
+                        <textarea name="comentarios" rows="4" cols="40"></textarea>
                     </fieldset>
 
-                    <p>
-                        <input type="checkbox" id="acepto" name="acepto" required>
-                        <label for="acepto">He leído el <a href="aviso-legal.html">aviso legal</a></label>
-                    </p>
-                    <p>
-                        <button type="submit">Enviar inscripción</buton>
-                            <button type="reset">Borrar datos</button>
-                    </p>
+                    <br>
+                    <input type="checkbox" id="acepto" name="acepto" required>
+                    <label for="acepto">He leído el <a href="aviso-legal.html">aviso legal</a></label>
+                    <br>
+                    <button type="submit">Enviar inscripción</buton>
+                        <button type="reset">Borrar datos</button>
                 </form>
             </section>
 
